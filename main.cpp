@@ -1,14 +1,14 @@
 #include <iostream>
 #include <vector>
 #include <stdafx.h>
-// Здесь прописаны классы для работы с триангуляцией,
-// такие как Vector, Polygon и Triangle.
+// Р—РґРµСЃСЊ РїСЂРѕРїРёСЃР°РЅС‹ РєР»Р°СЃСЃС‹ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ С‚СЂРёР°РЅРіСѓР»СЏС†РёРµР№,
+// С‚Р°РєРёРµ РєР°Рє Vector, Polygon Рё Triangle.
 #include <base_classes.h>
-// Здесь прописан алгоритм триангуляции
+// Р—РґРµСЃСЊ РїСЂРѕРїРёСЃР°РЅ Р°Р»РіРѕСЂРёС‚Рј С‚СЂРёР°РЅРіСѓР»СЏС†РёРё
 #include <triangulation.h>
-// Режим консольного управления
+// Р РµР¶РёРј РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ СѓРїСЂР°РІР»РµРЅРёСЏ
 #include <console.h>
-// Режим графического управления
+// Р РµР¶РёРј РіСЂР°С„РёС‡РµСЃРєРѕРіРѕ СѓРїСЂР°РІР»РµРЅРёСЏ
 #include <graphic.h>
 
 using namespace earclipping_triangulation;
@@ -76,7 +76,7 @@ int main()
 			break;
 
 		case '6':
-			// Основная функция
+			// РћСЃРЅРѕРІРЅР°СЏ С„СѓРЅРєС†РёСЏ
 			triangles = Triangulation::Triangulate(polygon);
 
 			if (triangles.empty()) cout << "Impossibly to triangulate this polygon.\n";
